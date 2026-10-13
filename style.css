@@ -1,0 +1,99 @@
+@font-face {
+    font-family: "young serif";
+    src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Outfit";
+    src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+    font-style: normal;
+    font-weight: 400 700;
+}
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.container {
+    width: 375px;
+}
+.image {
+    width: 375px;
+    height: 170px;
+}
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+h1 {
+    margin: 2rem;
+    font-size: 2.6rem;
+}
+p {
+    margin: 2rem;
+    line-height: 1.5rem;
+    word-spacing: 0.2rem;
+}
+.prep {
+    margin: 0 2rem;
+    height: 165px;
+    background-color: hsl(330, 100%, 98%);
+}
+.prep p {
+    margin: 0 2rem;
+    padding: 1rem 0;
+    font-size: 1.3rem;
+    color: hsl(332, 51%, 32%);
+}
+.prep ul {
+    margin-top: 0;
+}
+ul, ol {
+    margin: 2rem;
+    padding-left: 20px;
+}
+ul li {
+    line-height: 1.5rem;
+    padding-left: 0.8rem;
+}
+h2 {
+    margin: 2rem 2rem 1.5rem;
+    color: hsl(14, 45%, 36%);
+}
+ol li {
+    line-height: 1.5rem;
+    padding-left: 0.8rem;
+}
+ol li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+ol
+.nut {
+    margin: 1.5rem 2rem;
+}
+table {
+    width: calc(100% - 2rem) ;
+    gap: 1.5rem;
+    margin: 1.5rem 2rem;
+    text-align: left;
+}
+tr {
+    border-bottom: 1px solid black;
+}
+span {
+    font-weight: bold;
+}
+hr {
+    color: hsl(30, 18%, 87%);
+    margin: 0 2rem;
+}
